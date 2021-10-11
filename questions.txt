@@ -1,0 +1,203 @@
+1.
+What will be the output of the following code :
+print(type(type(int)))
+
+A - class 'int'
+B - class 'type'
+C - Error
+D - 0
+
+2.
+What is the output of the following code :
+L = ['a','b','c','d']
+print("".join(L))
+
+A - Error
+B - None
+C - abcd
+D - [‘a’,’b’,’c’,’d’]
+
+3.
+What is the output of the following segment :
+chr(ord('A'))
+
+A - A
+B - B
+C - a
+D - Error
+
+4.
+What is the output of the following program :
+y = 8
+z = lambda x : x * y
+print(z(6))
+
+A - 48
+B - 14
+C - 64
+D - None of the above
+
+5.
+Suppose list1 is [3, 4, 5, 20, 5, 25, 1, 3], what is list1 after list1.pop(1)?
+A - [3, 4, 5, 20, 5, 25, 1, 3]
+B - [1, 3, 3, 4, 5, 5, 20, 25]
+C - [3, 5, 20, 5, 25, 1, 3]
+D - [1, 3, 4, 5, 20, 5, 25]
+
+6.
+time.time() returns ________
+
+A - the current time
+B - the current time in milliseconds since midnight
+C - the current time in milliseconds since midnight, January 1, 1970
+D - the current time in milliseconds since midnight, January 1, 1970 GMT (the Unix time)
+
+7.
+What is the output of the following code :
+print(9//2)
+
+A - 4.5
+B - 4.0
+C - 4
+D - Error
+
+8.
+What is the output of the following program :
+i = 0
+while i < 3:
+       print(i)
+       i = i + 1
+       print(i+1)
+
+A - 0 2 1 3 2 4
+B - 0 1 2 3 4 5
+C - Error
+D - 1 0 2 4 3 5
+
+9.
+What is the output of the following program :
+print("Hello World"[::-1])
+
+A - dlroW olleH
+B - Hello Worl
+C - d
+D - Error
+
+10.
+Given a function that does not return any value, what value is shown when executed at the shell?
+
+A - int
+B - bool
+C - void
+D - None
+
+11.
+What is the output of the following program :
+print(0.1 + 0.2 == 0.3)
+
+A - True
+B - False
+C - Machine dependent
+D - Error
+
+12.
+Given a string s = “Welcome”, which of the following code is incorrect?
+
+A - print(s[0])
+B - print(s.lower())
+C - s[1] = ‘r’
+D - print(s.strip())
+
+13.
+What is the output of the following program :
+def myfunc(a):
+    a = a + 2
+        a = a * 2
+    return a
+ 
+print(myfunc(2))
+
+A - 8
+B - 16
+C - Indentation Error
+D - Runtime Error
+
+14.
+What is the output of the expression : 3*1**3
+
+A - 27
+B - 9
+C - 3
+D - 1
+
+15.
+What is the output of the following program :
+print('{0:.2}'.format(1.0 / 3))
+
+A - 0.333333
+B - 0.33
+C - 0.333333:-2
+D - Error
+
+16.
+What is the output of the following program :
+print('{0:-2%}'.format(1.0 / 3))
+
+A - 0.33
+B - 0.33%
+C - 33.33%
+D - 33%
+
+17.
+What is the output of the following program :
+i = 0
+while i < 3: 
+    print(i) 
+    i += 1
+else: 
+    print(0)
+
+A - 0 1 2 3 0
+B - 0 1 2 0
+C - 0 1 2
+D - Error
+
+18.
+What is the output of the following program :
+i = 0
+while i < 5:
+    print(i)
+    i += 1
+    if i == 3:
+        break
+else:
+    print(0)
+
+A - 0 1 2 0
+B - 0 1 2
+C - Error
+D - None of the above
+
+19.
+What is the output of the following program :
+print 'abcefd'.replace('cd', '12')
+
+A - ab1ef2
+B - abcefd
+C - ab1efd
+D - ab12ed2
+
+20.
+What will be displayed by the following code?
+def f(value, values):
+    v = 1
+    values[0] = 44
+t = 3
+v = [1, 2, 3]
+f(t, v)
+print(t, v[0])
+
+A - 1 1
+B - 1 44
+C - 3 1
+D - 3 44
